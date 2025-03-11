@@ -6,6 +6,7 @@ import Image from 'next/image';
 import styled from '@emotion/styled';
 
 const Container = styled.div`
+  background: white; /* Forces white background, preventing dark mode */
   min-height: 100vh;
   display: flex;
   align-items: center;
