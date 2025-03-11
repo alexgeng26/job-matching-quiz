@@ -7,7 +7,7 @@ import Image from 'next/image';
 import styled from '@emotion/styled';
 
 const Container = styled.div`
-  background: url('/assets/grain-background.png') repeat center/75%;
+  background: white; /* Forces white background, preventing dark mode */
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -36,6 +36,12 @@ const Card = styled.div`
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  text-rendering: optimizeLegibility;
+  color: #333; /* Darker text color */
+
+  /* macOS Font Fix */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 `;
 
 const Button = styled.button`
