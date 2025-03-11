@@ -7,3 +7,4 @@ This is a spoof of a MCS questionnaire designed to poke fun at some of the commo
 
 ## Links
 Website: https://my-matching-quiz.vercel.app/
+The domain can be changed.
