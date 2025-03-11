@@ -32,6 +32,7 @@ const Tagline = styled.p`
   font-weight: bold;
   margin-top: 20px;
   text-align: center;
+  color: #333; /* Ensures tagline is always dark gray */
 `;
 
 export default function Results() {
